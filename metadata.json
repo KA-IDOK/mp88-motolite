@@ -1,0 +1,7 @@
+{
+  "name": "MP88 Battery World",
+  "description": "Your 24/7 battery rescue and automotive service partner in the Philippines. We offer Motolite, Delkor, ACDelco, and more with free delivery and installation.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
