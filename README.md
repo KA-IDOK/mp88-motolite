@@ -1,40 +1,20 @@
-# MP88 Battery World
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-Your 24/7 battery rescue and automotive service partner in the Philippines. We offer Motolite, Delkor, ACDelco, and more with free delivery and installation.
+# Run and deploy your AI Studio app
 
-## Features
+This contains everything you need to run your app locally.
 
-- **24/7 Battery Rescue**: Call our hotlines for immediate assistance.
-- **Expert Diagnostics**: Battery state-of-health check and alternator charging system check.
-- **Wide Selection**: Premium battery brands like Motolite, Delkor, ACDelco, Amaron, and GS.
-- **Free Installation**: Free delivery and installation across Cebu, Davao, and Bohol.
-- **AI Specialist Consultation**: Get help with your battery needs from our AI-powered specialist.
+View your app in AI Studio: https://ai.studio/apps/3babcd06-3f91-429a-a375-bef520cca2ea
 
-## Tech Stack
+## Run Locally
 
-- React 19
-- Vite
-- Tailwind CSS
-- Lucide React
-- Google Gemini AI (for expert consultation)
+**Prerequisites:**  Node.js
 
-## Development
 
 1. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-2. Run the development server:
-   ```bash
-   npm run dev
-   ```
-
-3. Build for production:
-   ```bash
-   npm run build
-   ```
-
-## Repository
-
-[https://github.com/rokan2059/MP88.git](https://github.com/rokan2059/MP88.git)
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
