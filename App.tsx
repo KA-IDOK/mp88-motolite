@@ -313,19 +313,28 @@ const App: React.FC = () => {
                 <AlertTriangle size={14} className="mr-2" /> Authorized Motolite Distributor
               </div>
               <h1 className="text-5xl lg:text-7xl font-black text-white leading-tight uppercase tracking-tighter">
-                Your trusted ally to power <span className="text-yellow-400">long haul use.</span>
+                A WORLD OF BATTERIES <span className="text-yellow-400">STARTS HERE.</span>
               </h1>
               <p className="text-lg lg:text-xl text-gray-400 max-w-2xl font-medium leading-relaxed">
                 The region's authority in all battery-related requirements. 24/7 Rescue, Free Delivery, and Free Installation across Cebu, Davao, and Bohol.
               </p>
               
-              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
+              <div className="flex flex-col sm:flex-row flex-wrap gap-4 justify-center lg:justify-start pt-4">
                 <a 
                   href={`tel:${RESCUE_HOTLINES[3]}`}
                   className="bg-yellow-400 text-black px-10 py-5 rounded-2xl font-black text-xl flex items-center justify-center gap-3 hover:scale-105 transition-all shadow-2xl shadow-yellow-400/20 active:scale-95"
                 >
                   <Phone size={24} />
                   {RESCUE_HOTLINES[3]}
+                </a>
+                <a 
+                  href="https://www.facebook.com/MaboloNearSMCityCebu/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-[#1877F2] text-white px-10 py-5 rounded-2xl font-bold text-lg flex items-center justify-center gap-3 hover:-translate-y-1 transition-all shadow-2xl shadow-[#1877F2]/20 active:scale-95"
+                >
+                  <Facebook size={24} className="fill-current" />
+                  Visit our page
                 </a>
                 <a 
                   href="#battery-finder"
@@ -456,6 +465,12 @@ const App: React.FC = () => {
                     >
                       <Search size={18} /> Find My Battery
                     </button>
+
+                    <div className="text-center mt-6">
+                      <p className="text-sm font-bold text-gray-500">
+                        Can't find your vehicle? <a href="#contact" onClick={(e) => handleLinkClick(e, 'contact')} className="text-red-600 hover:text-red-700 underline underline-offset-4 decoration-red-200 hover:decoration-red-600 transition-all">Contact us for Consultation</a>
+                      </p>
+                    </div>
                   </div>
                 </div>
 
